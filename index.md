@@ -36,3 +36,7 @@ The project is a bilateral project between UNIPI and UMBC. The following personn
 * [Nirmalya Roy](), University of Baltimore County
 * [Aryya Gan-gopadhyay](https://sites.google.com/site/homearyya/), University of Baltimore County
 * [Bipen Basnyat](), University of Baltimore County
+
+![immagine](https://user-images.githubusercontent.com/8784059/147487303-a7a87a17-48e2-4c5d-964a-d147089b15cf.png)     ![immagine](https://user-images.githubusercontent.com/8784059/147487345-dce82632-a1e4-4486-b662-1f5ffba9e3dd.png)
+
+
