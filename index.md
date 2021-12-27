@@ -1,6 +1,4 @@
-## Exploiting Edge computing for Real-Time Monitoring and Detection of Flash Floods
-
-# Project Overview
+## Project Overview
 
 The EdgeFlooding project is funded by the [NGIatlantic](https://ngiatlantic.eu/) initiative under the [3rd open call for experiments](https://ngiatlantic.eu/ngiatlanticeu-3rd-open-call). The project is a bilateral project between the [Department of Information Engineering at the University of Pisa](https://www.dii.unipi.it) and the [Department of Information Systems at the University of Maryland Baltimore County](https://informationsystems.umbc.edu/). 
 
@@ -9,6 +7,10 @@ The project aims at assessing whether a distributed computing architecture based
 EdgeFlooding will be extended the current implementation to obtain a novel implementation of the system that adopts an edge/cloud approach, where a part of data analysis, namely the image analysis, is moved at the edge, in proximity of the monitoring sites. A modular architecture based on microservices will be adopted in order to ensure the possibility to restructure the architecture of the platform, thus allowing their deployment on different computing nodes. 
 
 Different experiments will be carried out: one edge/cloud configuration where the image analysis services are deployed on edge nodes while the social media and data aggregation services are hosted on the cloud, and one cloud configuration where all the services are deployed on the cloud as in the original implementation. An extensive experimentation will be run to evaluate the performance of the system with the two configurations (cloud vs edge) and assess the feasibility of adopting the edge/cloud approach in real deployments and measure its advantages/drawbacks. 
+
+![cloud](https://user-images.githubusercontent.com/8784059/147485873-532476de-b9be-453e-9d00-bbbd8aa7c5fb.png)
+
+![edge](https://user-images.githubusercontent.com/8784059/147485911-9d7821be-ac7d-4f1e-813d-881bd1e0e612.png)
 
 The experimentation will be organized into the following two phases. A first phase in which a realistic deployment is emulated using the nodes of the [Grid’5000 testbed](https://www.grid5000.fr/w/Grid5000:Home), a large-scale testbed for experiment-driven research in the area of parallel, distributed computing and cloud managed by a scientific interest group (GIS) and hosted by Inria .Nodes from different locations of the testbed and with different computing capabilities will be exploited to emulate cloud computing nodes (top-range servers with powerful CPUs and GPUs) and edge computing nodes (mid-range servers with less powerful CPUs and mid-level GPUs). A second experimentation phase in which the edge computing layer is emulated with nodes external to the Grid’5000 testbed to assess the performance of the system when the edge layer is implemented with constrained devices, e.g. a PC or an embedded system, installed in proximity of - or co-located with - the cameras. To this aim the PCs available at the [Virtual Wall](https://www.ugent.be/ea/idlab/en/research/research-infrastructure/virtual-wall.htm) testbed, hosted at and managed by imec IDLabt ilab.t in Ghent, will be exploited in addition to the embedded systems available on the Fog testbed available at the [Cloud Compuiting, Big Data and Cybersecurity crosslab](https://crosslab.dii.unipi.it/cloud-computing-big-data-cybersecurity-lab) at the Department of Information Engineering of the University of Pisa. 
 
