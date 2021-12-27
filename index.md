@@ -8,8 +8,11 @@ EdgeFlooding will be extended the current implementation to obtain a novel imple
 
 Different experiments will be carried out:
 1. one *cloud configuration* where all the services are deployed on the cloud as in the original implementation;
+
 ![image1](https://user-images.githubusercontent.com/8784059/147485873-532476de-b9be-453e-9d00-bbbd8aa7c5fb.png)
+
 2. one *edge configuration* where the image analysis services are deployed on edge nodes while the social media and data aggregation services are hosted on the cloud. 
+
 ![image2](https://user-images.githubusercontent.com/8784059/147485911-9d7821be-ac7d-4f1e-813d-881bd1e0e612.png)
 
 An extensive experimentation will be run to evaluate the performance of the system with the two configurations (cloud vs edge) and assess the feasibility of adopting the edge/cloud approach in real deployments and measure its advantages/drawbacks. 
@@ -17,4 +20,19 @@ The experimentation will be organized into the following two phases. A first pha
 
 The analysis of the results of the experiments will aim at the following: (i) assess the feasibility of adopting the edge/cloud implementation in real systems and, in particular, verify the feasibility of implementing the image analysis algorithms on edge nodes; (ii) measure metrics such as analysed FPS, latency, bandwidth and CPU/RAM occupation to compare the two edge/cloud and cloud configurations and highlight advantages/disadvantages of both. Such results and conclusions are expected to be of interest not only for future flood monitoring systems but in general in the area of environmental monitoring.
 
-![W8](https://user-images.githubusercontent.com/18681585/145365621-41636063-84ba-4b69-83a1-8104a86bd675.png)
+## Distributed Edge flooding platform
+The distributed edge flooding platform is currently under development. The platform will be made available as opensource project at the following repository: [EdgeFloodingPlatform](https://github.com/EdgeFlooding/EdgeFloodingPlatform) 
+
+## Results analysis
+A public summary of the results obtained by the project will be published on this website at the end of the project.
+
+## Our team
+The project is a bilateral project between UNIPI and UMBC. The following personnel is involved:
+* [Carlo Vallati](http://www.iet.unipi.it/c.vallati/), University of Pisa, PI
+* [Francesca Righetti](http://for.unipi.it/francesca_righetti/), University of Pisa
+* [Giuseppe Anastasi](http://www.iet.unipi.it/g.anastasi/), University of Pisa
+* [Nicola Tonellotto](https://tonellotto.github.io/), University of Pisa
+* [Andrea Klaus Tubak](), University of Pisa
+* [Nirmalya Roy](), University of Baltimore County
+* [Aryya Gan-gopadhyay](https://sites.google.com/site/homearyya/), University of Baltimore County
+* [Bipen Basnyat](), University of Baltimore County
